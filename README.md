@@ -41,3 +41,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 m
 python tool.py --checkpoint model_weight_path --tools test
 ```
 - About the post-processing technique DenseCRF we used in the original paper, you can find it here: [DSS-CRF](https://github.com/Andrew-Qibin/dss_crf).
+
+## Segmentation Results
+
+- The segmentation results on DAVIS-16 and FBMS can be downloaded from [Google Drive](), [Baidu Pan]()
