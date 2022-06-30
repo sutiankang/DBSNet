@@ -1,4 +1,4 @@
-# Bidirectionally Learning Dense Spatio-temporal Feature Propagation Network for Unsupervised Video Object Segmentation(ACM MM2022)
+# Bidirectionally Learning Dense Spatio-temporal Feature Propagation Network for Unsupervised Video Object Segmentation(ACM MM 2022)
 
 ## Prerequisites
 The training and testing experiments are conducted using PyTorch 1.0.1 with two GeForce RTX 2080Ti GPUs with 11GB Memory.
