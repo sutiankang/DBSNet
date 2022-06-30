@@ -24,6 +24,9 @@ In the paper, we use the following three public available dataset for training. 
 ### Prepare Optical Flow
 Please following the the instruction of [RAFT](https://github.com/princeton-vl/RAFT) to prepare the optial flow. 
 
+### Prepare pretrained backbond
+The pre-trained backbone can be downloaded from [MobileViT backbone](https://github.com/wilile26811249/MobileViT).
+
 ### Train
 - First, train the model using the YouTubeVOS-2018, DAVIS-16 and FBMS datasets.
 ```
@@ -48,3 +51,16 @@ python tool.py --checkpoint model_weight_path --tools test
 - Evaluation Toolbox: We use the standard evaluation toolbox from [DAVIS-16](https://github.com/davisvideochallenge/davis-matlab/tree/davis-2016).
 - The segmentation results on DAVSOD can be downloaded from [Google Drive](), [Baidu Pan]().
 - Evaluation Toolbox: We use the standard evaluation toolbox from [DAVSOD benchmark](https://github.com/DengPingFan/DAVSOD).
+
+## Pretrained Models
+The pre-trained model can be downloaded from [Google Drive](), [Baidu Pan]().
+
+## Citation
+If you find DBSNet useful for your research, please consider citing the following papers:
+```
+
+```
+
+## Acknowledgments
+- Thanks for [PDB ConvLSTM](https://github.com/shenjianbing/PDB-ConvLSTM), [Graph Attention](https://github.com/carrierlxk/GraphMemVOS) and [Coordinate Attention](https://github.com/Andrew-Qibin/CoordAttention), which helps us to quickly implement our ideas.
+- We use the implementation of the MobileViT from [MobileViT backbone](https://github.com/wilile26811249/MobileViT) and ConvLSTM from [ConvLSTM implement](https://github.com/KimUyen/ConvLSTM-Pytorch).
