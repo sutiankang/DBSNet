@@ -1,4 +1,4 @@
-# DBSNet
+# Bidirectionally Learning Dense Spatio-temporal Feature Propagation Network for Unsupervised Video Object Segmentation(ACM MM2022)
 
 ## Prerequisites
 The training and testing experiments are conducted using PyTorch 1.0.1 with two GeForce RTX 2080Ti GPUs with 11GB Memory.
@@ -49,7 +49,7 @@ python tool.py --checkpoint model_weight_path --tools test
 
 - The segmentation results on DAVIS-16 and FBMS can be downloaded from [Google Drive](), [Baidu Pan]().
 - Evaluation Toolbox: We use the standard evaluation toolbox from [DAVIS-16](https://github.com/davisvideochallenge/davis-matlab/tree/davis-2016).
-- The segmentation results on DAVSOD can be downloaded from [Google Drive](), [Baidu Pan]().
+- The segmentation results on DAVSOD and MCL can be downloaded from [Google Drive](), [Baidu Pan]().
 - Evaluation Toolbox: We use the standard evaluation toolbox from [DAVSOD benchmark](https://github.com/DengPingFan/DAVSOD).
 
 ## Pretrained Models
@@ -58,7 +58,13 @@ The pre-trained model can be downloaded from [Google Drive](), [Baidu Pan]().
 ## Citation
 If you find DBSNet useful for your research, please consider citing the following papers:
 ```
-
+@inproceedings{fan2021dbsnet,
+  title={Bidirectionally Learning Dense Spatio-temporal Feature Propagation Network for Unsupervised Video Object Segmentation},
+  author={Jiaqing Fan, Tiankang Su, Kaihua Zhang, and Qingshan Liu},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={0--0},
+  year={2022}
+}
 ```
 
 ## Acknowledgments
