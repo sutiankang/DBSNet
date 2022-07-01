@@ -47,7 +47,7 @@ python tool.py --checkpoint model_weight_path --tools test
 
 ## Segmentation Results
 
-- The segmentation results on DAVIS-16 and FBMS can be downloaded from [Google Driver](), [Baidu Pan](https://pan.baidu.com/s/1goQUA1vs6Wg42cSOS0tL4w)(PSW:uf21).
+- The segmentation results on DAVIS-16, FBMS, DAVSOD and MCL can be downloaded from [Baidu Pan](https://pan.baidu.com/s/1goQUA1vs6Wg42cSOS0tL4w)(PSW:uf21).
 - Evaluation Toolbox: We use the standard UVOS evaluation toolbox from [DAVIS-16](https://github.com/davisvideochallenge/davis-matlab/tree/davis-2016) and VSOD evaluation toolbox from [DAVSOD benchmark](https://github.com/DengPingFan/DAVSOD).
 
 ## Citation
@@ -63,5 +63,4 @@ If you find DBSNet useful for your research, please consider citing the followin
 ```
 
 ## Acknowledgments
-- Thanks for [PDB ConvLSTM](https://github.com/shenjianbing/PDB-ConvLSTM), [Graph Attention](https://github.com/carrierlxk/GraphMemVOS) and [Coordinate Attention](https://github.com/Andrew-Qibin/CoordAttention), which helps us to quickly implement our ideas.
-- We use the implementation of the MobileViT from [MobileViT backbone](https://github.com/wilile26811249/MobileViT) and ConvLSTM from [ConvLSTM implement](https://github.com/KimUyen/ConvLSTM-Pytorch).
+- Thanks for [DenseNet]() and [ConvLSTM](), which helps us to quickly implement our ideas.
