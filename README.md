@@ -22,7 +22,7 @@ In the paper, we use the following three public available dataset for training. 
 - [FBMS](https://lmb.informatik.uni-freiburg.de/resources/datasets/moseg.en.html): We use all the data in the train subset of FBMS.
 
 ### Prepare Optical Flow
-Please following the the instruction of [RAFT](https://github.com/princeton-vl/RAFT) to prepare the optial flow. 
+Please following the the instruction of [RAFT](https://github.com/princeton-vl/RAFT) to prepare the optical flow. 
 
 ### Prepare pretrained backbond
 The pre-trained backbone can be downloaded from [MobileViT backbone](https://github.com/wilile26811249/MobileViT) and put it into the ```pretrained``` folder.
