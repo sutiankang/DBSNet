@@ -63,4 +63,4 @@ If you find DBSNet useful for your research, please consider citing the followin
 ```
 
 ## Acknowledgments
-- Thanks for [DenseNet]() and [ConvLSTM](), which helps us to quickly implement our ideas.
+- Thanks for [DenseNet](https://arxiv.org/pdf/1608.06993.pdf) and [ConvLSTM](https://arxiv.org/pdf/1506.04214.pdf), which helps us to quickly implement our ideas.
