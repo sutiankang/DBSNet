@@ -52,9 +52,6 @@ python tool.py --checkpoint model_weight_path --tools test
 - The segmentation results on DAVSOD and MCL can be downloaded from [Google Driver](), [Baidu Pan]().
 - Evaluation Toolbox: We use the standard evaluation toolbox from [DAVSOD benchmark](https://github.com/DengPingFan/DAVSOD).
 
-## Pretrained Models
-The pre-trained model can be downloaded from [Google Driver](), [Baidu Pan]().
-
 ## Citation
 If you find DBSNet useful for your research, please consider citing the following papers:
 ```
