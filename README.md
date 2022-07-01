@@ -58,7 +58,7 @@ The pre-trained model can be downloaded from [Google Drive](), [Baidu Pan]().
 ## Citation
 If you find DBSNet useful for your research, please consider citing the following papers:
 ```
-@inproceedings{fan2021dbsnet,
+@inproceedings{fan2022dbsnet,
   title={Bidirectionally Learning Dense Spatio-temporal Feature Propagation Network for Unsupervised Video Object Segmentation},
   author={Jiaqing Fan, Tiankang Su, Kaihua Zhang, and Qingshan Liu},
   booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
