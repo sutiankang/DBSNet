@@ -49,6 +49,7 @@ python tool.py --checkpoint model_weight_path --tools test
 
 - The segmentation results on DAVIS-16, FBMS, DAVSOD and MCL can be downloaded from [Baidu Pan](https://pan.baidu.com/s/1goQUA1vs6Wg42cSOS0tL4w)(PSW:uf21).
 - Evaluation Toolbox: We use the standard UVOS evaluation toolbox from [DAVIS-16](https://github.com/davisvideochallenge/davis-matlab/tree/davis-2016) and VSOD evaluation toolbox from [DAVSOD benchmark](https://github.com/DengPingFan/DAVSOD).
+- Note: When we evaluate J_Mean and F_Mean, we need to set [predict_mask > 127] = 255 and [predict_mask <=127] = 0. 
 
 ## Citation
 If you find DBSNet useful for your research, please consider citing the following papers:
